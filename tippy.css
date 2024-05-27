@@ -1,0 +1,14 @@
+/* Custom theme for Tippy.js tooltips */
+.tippy-box[data-theme~='custom-theme'] {
+  background-color: rgba(155, 176, 255, 0.04);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+/* Style the SVG arrow for the custom theme */
+.tippy-box[data-theme~='custom-theme'] .tippy-svg-arrow {
+  fill: rgba(155, 176, 255, 0.04);
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 1px;
+}
